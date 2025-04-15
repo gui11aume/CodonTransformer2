@@ -1,0 +1,20 @@
+{
+  "python.analysis.typeCheckingMode": "strict",
+  "python.testing.pytestArgs": ["test"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "always"
+    }
+  },
+  "ruff.enable": true,
+  "ruff.organizeImports": true,
+  "ruff.fixAll": true,
+  "ruff.configuration": "pyproject.toml",
+  "ruff.lineLength": 100,
+  "ruff.importStrategy": "fromEnvironment"
+}
